@@ -1,0 +1,104 @@
+*{
+    font-size: 110%;
+}
+
+body{
+    background-color: grey;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body>div{
+    height: 75%;
+    width: 500px;
+    background-color: dodgerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 250%;
+}
+
+#green{
+    background-color: green;
+    color: black;
+}
+
+#yellow{
+    background-color: yellow;
+    color: black;
+    padding-left: 5px;
+}
+
+#red{
+    background-color: red;
+    color: black;
+    padding-left: 5px;
+}
+
+#green:hover{
+    background-color: unset;
+    color: green;
+}
+
+#yellow:hover{
+    background-color: unset;
+    color: yellow;
+    padding-left: 5px;
+}
+
+#red:hover{
+    background-color: unset;
+    color: red;
+    padding-left: 5px;
+}
+
+#blue{
+    color: blue;
+}
+
+#blue:hover{
+    border: 2px solid grey;
+}
+
+li{
+    background-color: grey;
+    padding: 5px;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#auto{
+    font-size: 150%;
+}
+
+#user{
+    font-size: 140%;
+    color: yellow;
+}
+
+form{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#submit{
+    border: 5px solid grey;
+    background-color: skyblue;
+}
+
+#submit:hover{
+    border: 5px solid blue;
+}
