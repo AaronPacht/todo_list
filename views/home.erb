@@ -1,7 +1,7 @@
 <h1>To do list</h1>
 <ul>
     <% @todos.each do |todo| %>
-        <li><%=todo.name%> <a id="green" href='/view/<%= todo.id %>'>View </a><a id="yellow" href='/updateTodo/<%= todo.id %>'>Update </a><a id="red" href='/deleteTodo/<%= todo.id %>'>Delete</a></li>
+        <li><%=todo.name%> <select name="view" id="green"><option></option><option value="<%=todo.place%>" disabled>Where: <%=todo.place%></option><option value="<%=todo.note%>" disabled>Note: <%=todo.note%></option></select><a id="green2" href='/view/<%= todo.id %>'>View </a><a id="yellow" href='/updateTodo/<%= todo.id %>'>Update </a><a id="red" href='/deleteTodo/<%= todo.id %>'>Delete</a></li>
     <% end %>
 </ul>
 <a id="blue" href='/createTodo'>Create Todo</a>
